@@ -1,0 +1,352 @@
+/* Start Box */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+.d-flex {
+    display: flex;
+}
+.f-grow {
+    flex-grow: 1;
+}
+.d-grid {
+    display: grid;
+}
+.d-block {
+    display: block;
+}
+@media(max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+.gap-20 {
+    gap: 20px;
+}
+.al-center {
+    align-items: center;
+}
+.jc-between {
+    justify-content: space-between;
+}
+.f-wra {
+    flex-wrap: wrap;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* End Box */
+
+/* Start Padding + Margin */
+.p-0 {
+    padding: 0;
+}
+.p-10 {
+    padding: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-9 {
+    margin-top: 9px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.mb-3 {
+    margin-bottom: 3px;
+}
+.mb-4 {
+    margin-bottom: 4px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-7 {
+    margin-bottom: 7px;
+}
+.mb-9 {
+    margin-bottom: 9px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mg-r {
+    margin-right: 10px;
+}
+.mg-r15 {
+    margin-right: 15px;
+}
+.ml-60 {
+    margin-left: 60px;
+}
+
+/* End Padding + Margin */
+
+/* Start Color */
+
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #f4f4f4d6;
+}
+.bg-blue {
+    background-color: #0075ff;
+}
+.bg-green {
+    background-color: #22c55e;
+}
+.bg-red {
+    background-color: #f44336;
+}
+.bg-orange {
+    background-color: #f59e0b;
+}
+.bg-grey {
+    background-color: #888;
+}
+
+.c-white {
+    color: white;
+}
+.c-blue {
+    color: #0d69d5;
+}
+.calt-blue {
+    color: #0d69d5;
+}
+.c-black {
+    color: #0F0E0E;
+}
+.c-grey {
+    color: #888;
+}
+.c-orange {
+    color: #f59e0b;
+}
+.c-green {
+    color: #22c55e;
+}
+.c-red {
+    color: #f44336;
+}
+
+/* End Color */
+
+/* Start Position */
+
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+
+
+/* End Position */
+
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+.fs-10 {
+    font-size: 10px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-20 {
+    font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+@media(max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fw-600 {
+    font-weight: 600;
+}
+
+/* End Font */
+
+/* Start Border */
+.rad-6 {
+    border-radius: 4px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-half {
+    border-radius: 50%;
+}
+.bd-none {
+    border: none;
+}
+
+.special-border {
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    width: calc(50% - 10px);
+}
+/* End Border */
+
+/* Start Width + Height */
+.w-full {
+    width: 100%;
+}
+.w-50 {
+    width: 100px;
+}
+.h-full {
+    height: 100%;
+}
+/* End Width + Height */
+
+/* Start Components */
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.space-around {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+/* End Components */
+
+/* Start Image */
+.img-wd100 {
+    max-width: 100%;
+}
+/* End Image */
+
+/* Start Width + height */
+.w-fit {
+    width: fit-content;
+}
+/* End Width + height */
+
+/* Start button Shape */
+.btn-shape {
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    display: block;
+    width: fit-content;
+    background-color: var(--blue-color);
+    color: white;
+    font-size: 14px;
+}
+.btn-grey {
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    display: block;
+    width: fit-content;
+    background-color: #eee;
+    color: black;
+    font-size: 12px;
+}
+.btn-sh {
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    display: block;
+    width: fit-content;
+    font-size: 12px;
+}
+.btn-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    transition: 0.5s;
+}
+.btn-padding {
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+/* End button Shape */
